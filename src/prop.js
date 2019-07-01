@@ -7,5 +7,6 @@
  */
 
 export default function prop(string, object) {
-    return object.string ? object.string : null
+    return object[string] ? object[string] : null
 }
+
